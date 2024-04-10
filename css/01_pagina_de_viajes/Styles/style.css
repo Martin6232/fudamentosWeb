@@ -1,7 +1,10 @@
 /* Estilos de paginade viajes */
-*
+*{outline:solid black}
 
 body {
     /*seleccion de body*/
     font-family: Arial, sans-serif;/*cambia tipografia*/
+    margin: 0; /*elimina todo el margen por defecto*/
+    padding: 0; /*elimina todo el relleno de los elementos*/
+    
 }
