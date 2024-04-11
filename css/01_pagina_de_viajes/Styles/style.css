@@ -1,9 +1,36 @@
-/* Estilos de paginade viajes */
-*{outline:solid black}
-
+/* Estilos de paginade viajes*/ 
+*{
+    outline:solid black
+}
+*/
 body {
     /*seleccion de body*/
     font-family: Arial, sans-serif;/*cambia tipografia*/
     margin: 0; /*elimina todo el margen por defecto*/
     padding: 0; /*elimina todo el relleno de los elementos*/
+}
+/*estilo de clase container*/
+.container {
+    width: 80%; /*establece el ancho del contenedor*/
+    margin: 0 auto; /*Centra horizontalmente del contenedor*/
+}
+
+/*estilo de encabesado*/
+header {
+    background-color: #333; /*establece el color del fondo*/
+    color: #fff; /*establece el color del texto*/
+    padding: 20px 0; /*añade relleno ariba y abajo*/
+}
+header h1 {
+    margin: 0; /*elimina el margen por defecto del titulo*/
+}
+/*estilo de elemento de lista*/
+nav ul li{
+    display: inline; /*alinea los elementos*/
+    margin-right: 20px; /*margen hacia la derecha*/
+}
+/*estilo a elementos de vinculo ancla de navegacion*/
+nav ul li a {
+    color:#fff;
+    text-decoration: none; /*elimina el subrallado de enlaces*/
 }
