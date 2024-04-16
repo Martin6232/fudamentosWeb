@@ -61,9 +61,18 @@ section {
 .btn:hover {
     background-color: #3d3acc;
 } 
+
+.destinos_container{
+    
+}
+.destinos {
+    width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
+    
+}
+
 footer{
-    background-color: #333;
+    background-color: #333; 
     padding: 20px 0 ;
-    text-align: center;
+    text-align: center; /*alinea todos los textos al centro*/
     color:#fff
 }
