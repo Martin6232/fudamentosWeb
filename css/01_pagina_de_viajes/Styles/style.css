@@ -65,8 +65,9 @@ section {
 } 
 
 .destinos_container{
-    display: flex;
-    justify-content: space-between;
+    display: flex; /*utiliza flex box para aliniar elementos*/
+    justify-content: space-between; /*distribuye uniformemente los elementos*/
+    flex-wrap: wrap; /*los apila hacia abajo si no caben*/
 }
 .destinos {
     width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
@@ -90,5 +91,5 @@ footer{
     background-color: #333; 
     padding: 20px 0 ;
     text-align: center; /*alinea todos los textos al centro*/
-    color:#fff
+    color:#fff;
 }
