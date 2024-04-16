@@ -56,18 +56,34 @@ section {
     text-decoration: none;
     background-color: #4d5acc;
     padding: 10px 20px;
+    border-radius: 20px;
 }
 /*estilo cuando pasa puntro sobre el boton*/
 .btn:hover {
     background-color: #3d3acc;
+    border-radius: 20px;
 } 
 
 .destinos_container{
-    
+    display: flex;
+    justify-content: space-between;
 }
 .destinos {
     width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
-    
+    margin-bottom: 20px; /*define el marjen inferior*/
+    text-align: center;
+}
+
+.destinos img{
+    width: 80%;
+    border-radius: 8px;
+}
+.destinos h3 {
+    margin-top: 10px;/*distancia entre imagen y h3*/
+}
+
+.destinos p {
+    margin-top: 10px;  /*distancia superior entre h3 y p*/  
 }
 
 footer{
